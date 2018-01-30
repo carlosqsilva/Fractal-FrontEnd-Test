@@ -2,11 +2,11 @@
 
 Demo: [fractal-test](http://fractal-test.surge.sh/)
 
-```
-git clone git@github.com:carlosqsilva/Fractal-FrontEnd-Test.git
-cd Fractal-FrontEnd-Test/
-npm install or yarn install
-npm start
+```bash
+> git clone git@github.com:carlosqsilva/Fractal-FrontEnd-Test.git
+> cd Fractal-FrontEnd-Test/
+> npm install
+> npm start
 ```
 
 ## Objetivos
@@ -37,13 +37,13 @@ Implementar um Web App que consulte uma API e exiba uma lista de cervejas. Na li
 
 ## Critérios de avaliação
 
-Verificação das funcionalidades requeridas;
-Conhecimento em HTML, CSS e Javascript;
-Organização do código;
-Cobertura de testes;
-Aderência aos padrões de código de javascript como airbnb ou standard;
-Conhecimento em ES 2015, 2016;
-Nomeação e padronização do CSS;
+* Verificação das funcionalidades requeridas;
+* Conhecimento em HTML, CSS e Javascript;
+* Organização do código;
+* Cobertura de testes;
+* Aderência aos padrões de código de javascript como airbnb ou standard;
+* Conhecimento em ES 2015, 2016;
+* Nomeação e padronização do CSS;
 
 ## Como será avaliado
 
