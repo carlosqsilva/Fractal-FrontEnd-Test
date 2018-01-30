@@ -1,6 +1,5 @@
 import React from "react"
 import styled from "styled-components"
-import { Link } from "react-router-dom"
 import arrow from "./arrow.svg"
 
 const Wrapper = styled.div`
@@ -62,14 +61,9 @@ const Beer = ({ match, history, data }) => {
   }
 
   const id = match.params.id * 1
-  const {
-    name,
-    tagline,
-    image_url,
-    description,
-    brewers_tips,
-    food_pairing
-  } = data.find(beer => beer.id === id)
+  const { name, tagline, image_url, description, brewers_tips } = data.find(
+    beer => beer.id === id
+  )
   return (
     <Wrapper>
       <BackButton onClick={() => history.push("/")}>
@@ -78,7 +72,7 @@ const Beer = ({ match, history, data }) => {
       </BackButton>
       <Container>
         <ImageContainer>
-          <img src={image_url} height={350} />
+          <img src={image_url} height={350} alt="" />
         </ImageContainer>
         <Info>
           <h2>{name}</h2>

@@ -1,6 +1,5 @@
 import React from "react"
 import styled from "styled-components"
-
 import BeerCard from "./BeerCard"
 
 const Wrapper = styled.div`
