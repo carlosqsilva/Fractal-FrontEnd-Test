@@ -2,7 +2,12 @@
 
 Demo: [fractal-test](http://fractal-test.surge.sh/)
 
-`git clone git@github.com:carlosqsilva/Fractal-FrontEnd-Test.git cd Fractal-FrontEnd-Test/ npm install or yarn install npm start`
+```
+git clone git@github.com:carlosqsilva/Fractal-FrontEnd-Test.git
+cd Fractal-FrontEnd-Test/
+npm install or yarn install
+npm start
+```
 
 ## Objetivos
 
